@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,800;1,900&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="date">
+        <div class="day">
+          <p>DAY</p>
+          <input type="text" placeholder="DD" />
+          <p class="d_error"></p>
+        </div>
+        <div class="month">
+          <p>MONTH</p>
+          <input type="text" placeholder="MM" />
+          <p class="m_error"></p>
+        </div>
+        <div class="year">
+          <p>YEAR</p>
+          <input type="text" placeholder="YYYY" />
+          <p class="y_error"></p>
+        </div>
+      </div>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="38"
+          viewBox="0 0 46 44"
+        >
+          <g fill="none" stroke="#FFF" stroke-width="2">
+            <path
+              d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+            />
+          </g>
+        </svg>
+      </button>
+      <div class="border"></div>
+
+      <div class="output">
+        <span class="year_out">- -</span>
+        <p>years</p>
+        <span class="month_out">- -</span>
+        <p>months</p>
+        <span class="day_out">- -</span>
+        <p>days</p>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
